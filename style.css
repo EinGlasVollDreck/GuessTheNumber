@@ -1,0 +1,156 @@
+@font-face {
+    font-family: Minecraft;
+    src: url(https://fonts.googleapis.com/css?family=Roboto+Mono);
+  }
+body {
+    margin: 0;
+    overflow: hidden
+}
+
+.e1_2 {
+    overflow: hidden;
+    border: 1px solid rgba(0, 0, 0, 1);
+}
+
+.e1_2 {
+    background-color: rgba(30.00000011175871, 30.00000011175871, 30.00000011175871, 1);
+    width: 201.6vh;
+    height: 100vh;
+    position: absolute;
+}
+
+.e1_4 {
+    background-color: rgba(44.000001177191734, 140.00000685453415, 83.00000265240669, 1);
+    width: 75px;
+    height: 488px;
+    position: absolute;
+    left: 1055px;
+    top: 443px;
+}
+
+.e1_6 {
+    background-color: rgba(44.412503242492676, 140.25000303983688, 82.74751380085945, 1);
+    width: 1920px;
+    height: 75px;
+    position: absolute;
+    left: 0px;
+    top: 443px;
+}
+
+.e1_7 {
+    color: rgba(61.35938107967377, 223.34813922643661, 245.43749392032623, 1);
+    width: 1021.0000610351562px;
+    height: 325.0000305175781px;
+    position: absolute;
+    left: 464px;
+    top: 69px;
+    font-family: Minecraft;
+    text-align: left;
+    font-size: 160px;
+    letter-spacing: 0;
+}
+
+.e14_2 {
+    color: rgba(61.00000016391277, 223.00000190734863, 245.00000059604645, 1);
+    width: 800px;
+    height: 122px;
+    position: absolute;
+    left: 287px;
+    top: 575px;
+    font-family: Minecraft;
+    text-align: left;
+    font-size: 36px;
+    letter-spacing: 0;
+}
+
+.e6_5 {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background-color: rgba(255, 255, 255, 1);
+    width: 218px;
+    height: 241px;
+    position: absolute;
+    left: 69px;
+    top: 76px;
+    border-top-left-radius: 23px;
+    border-top-right-radius: 23px;
+    border-bottom-left-radius: 23px;
+    border-bottom-right-radius: 23px;
+}
+
+.e6_5 {
+    border: 1px solid rgba(0, 0, 0, 1);
+}
+
+.e6_7 {
+    color: rgba(0, 0, 0, 1);
+    width: 70px;
+    height: 174px;
+    position: absolute;
+    left: 84px;
+    top: 76px;
+    font-family: Minecraft;
+    text-align: left;
+    font-size: 160px;
+    letter-spacing: 0;
+}
+
+.e6_8 {
+    color: rgba(0, 0, 0, 1);
+    width: 138.3108367919922px;
+    height: 106.74209594726562px;
+    position: absolute;
+    left: 154px;
+    top: 207px;
+    font-family: Minecraft;
+    text-align: left;
+    font-size: 130px;
+    letter-spacing: 0;
+}
+
+.guessField {
+    position: absolute;
+    left: 287px;
+    top: 690px;
+}
+
+#nmb {
+    width: 130px;
+    height: 60px;
+    font-size: 20px;
+    border-radius: 7px;
+}
+
+.btnGuess {
+    background-color: #13aa52;
+    border: 1px solid #13aa52;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, .1) 0 2px 4px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    font-family: Minecraft;
+    font-size: 24px;
+    font-weight: 400;
+    outline: none;
+    outline: 0;
+    padding: 10px 25px;
+    text-align: center;
+    transform: translateY(0);
+    transition: transform 150ms, box-shadow 150ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    height: 80px;
+    width: 150px;
+}
+
+.btnGuess:hover {
+    box-shadow: rgba(0, 0, 0, .15) 0 3px 9px 0;
+    transform: translateY(-2px);
+}
+
+.btn {
+    position: absolute;
+    left: 500px;
+    top: 683px;
+}
