@@ -10,6 +10,8 @@
 </head>
 
 <body onload="start()">
+    <script type="text/javascript" src="script.js">
+    </script>
     <div class=e1_2>
         <div class="e1_4"></div>
         <div class="e1_6"></div><span class="e1_7">Guess the
@@ -22,9 +24,9 @@
         <div class="btn"><button class="btnGuess" role="button"
                 onclick="guessbtn(document.getElementById('nmb').value)">Guess!</button></div>
     </div>
-
-    <script type="text/script" src="script.js">
-    </script>
+    <div id="result">
+        <p id="para" style="color:red"></p>
+    </div>
 </body>
 
 </html>

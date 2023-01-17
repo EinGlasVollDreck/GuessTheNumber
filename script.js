@@ -9,25 +9,32 @@ function randomNumb() {
 }
 
 function guessbtn(numb) {
+    var tx = "";
+    var color = "red";
     
     if(numb > 10)
     {
-        console.log("Die Zahl darf höchstens 10 betragen!");
+        tx = "Die Zahl darf höchstens 10 betragen!";
     }
     else if(numb < 1)
     {
-        console.log("Die Zahl muss mindestens 1 betragen!");
+        tx = "Die Zahl muss mindestens 1 betragen!";
     }
     else if(numb == int)
     {
-        console.log("That's right! The Number were " + int);
+        tx = "That's right!<br> The Number were " + int;
+        color = "green";
     }
     else if(numb <= int && numb >= 1 && numb != int)
     {
-        console.log("your guess is too low");
+        tx = "your guess is too low";
     }
     else if(numb >= int && numb <= 10 && numb != int)
     {
-        console.log("your guess is too high");
+        tx = "your guess is too high";
     }
+
+
+    document.getElementById('para').innerHTML = tx;
+    document.getElementById('para').style.color = color;
 }
